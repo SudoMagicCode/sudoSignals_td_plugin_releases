@@ -1,17 +1,17 @@
 # Realese
-v0.0.5
+v0.0.51
 
 # Tested On
-* TouchDesigner 099 2020.25380
+* TouchDesigner 099 2020.27070
 
 # New Features
-* Initial functionality and hearbeats with dashboard.sudosignals.com 
+* Added functionality to sync custom parameters with the web
 
 # Improvements
 * None
 
 # Bug Fixes
-* None
+* Private component issue with older versions of TD resolved
 
 # Compatibility Warnings
 * None
