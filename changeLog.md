@@ -1,5 +1,5 @@
 # Realese
-v0.0.51
+v0.0.52
 
 # Tested On
 * TouchDesigner 099 2020.27070
