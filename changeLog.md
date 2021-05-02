@@ -1,27 +1,19 @@
 # Realese
-v0.2.1
+v0.3.2
 
 # Tested On
-* TouchDesigner 099 2021.11180
+* TouchDesigner 099 2021.12380
 
 # New Features
-*  added par for custom reports (not yet implemented)
-*  added links and pulse pars for help and documentation pages
+* custom reports now supported as a table DAT with two column - label and value
 
 # Improvements
-* signals ID displayed on TOX
-* connected state to Daemon correctly displayed on TOX
-* custom controls from TOX sent to daemon on startup
-
-*  added page for advanced settings
-*  added par for startup delay (currently read only)
-*  house cleaning - moved old python and marked code as deprecated 
+* added custom parameter for signals id - this is issued by Signals
+* added custom parameter for signals name - this is issued by Signals
 
 # Bug Fixes
-* Reports now update with correct current performance information from TouchDesigner.
-* TOX start up state now correctly handled for most operational conditions
-*  build process resets all custom pars to defaults to ensure correct state for user on dropping into network
+* TOX now correctly communicates TouchDesigner version and build to Signals
 
 # Compatibility Warnings
 * **BACKWARDS COMPATABILITY WARNING**  
-Release v0.2.1 is not compatible with the previous versions of sudoSignals! This build moves to a new Daemon style model to allow for greater flexibility for Signals. If you're currently using the direct connection from the TDSignals Client to the dashboard, wait to upgrade.
+Release v0.3.2 is not compatible with the previous versions of sudoSignals! This build moves to a new Service style model to allow for greater flexibility for Signals. If you're currently using the direct connection from the TDSignals Client to the dashboard, wait to upgrade.
